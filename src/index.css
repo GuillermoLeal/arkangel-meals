@@ -1,18 +1,94 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 }
+
+:root {
+	--bg-dark: #251d1d;
+	--bg-white: #fffdfc;
+	--bg-primary: #f8eae0;
+	--cl-black: #251d1d;
+	--cl-white: #ffffff;
+	--cl-orange: #f78928;
+	--cl-brown: #cf7747;
+}
+
+/* font-family: 'Domine', serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Varela Round', sans-serif; */
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--bg-primary);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.d-none {
+	display: none;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.title {
+	padding: 0 20px;
+	text-align: center;
+	font-size: 2rem;
+	font-family: 'Varela Round', sans-serif;
+	margin-bottom: 20px;
+	background: var(--bg-dark);
+	background: -webkit-linear-gradient(
+		to right,
+		var(--bg-dark) 0%,
+		var(--cl-brown) 50%,
+		var(--cl-orange) 100%
+	);
+	background: -moz-linear-gradient(
+		to right,
+		var(--bg-dark) 0%,
+		var(--cl-brown) 50%,
+		var(--cl-orange) 100%
+	);
+	background: linear-gradient(
+		to right,
+		var(--bg-dark) 0%,
+		var(--cl-brown) 50%,
+		var(--cl-orange) 100%
+	);
+	background-clip: initial;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.title-small {
+	font-size: 2rem;
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+	padding: 50px 0px 20px 0px;
+	text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+	.title {
+		font-size: 2.5rem;
+		width: 500px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.title {
+		font-size: 4rem;
+		width: 700px;
+	}
 }
