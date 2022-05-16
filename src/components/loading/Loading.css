@@ -1,0 +1,32 @@
+.loader-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+.loader-text {
+	font-size: 1.5rem;
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+	padding: 20px;
+}
+
+.loader {
+	border: 10px solid var(--cl-white);
+	border-top: 10px solid var(--cl-orange);
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
