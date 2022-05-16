@@ -1,0 +1,9 @@
+.icon-fav {
+	color: var(--cl-orange);
+	font-size: 2rem;
+	margin-right: 10px;
+	position: absolute;
+	z-index: 1;
+	top: 5px;
+	right: 5px;
+}

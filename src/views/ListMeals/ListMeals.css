@@ -1,0 +1,31 @@
+.grid-meals {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+	padding: 20px;
+}
+
+@media (min-width: 768px) {
+	.grid-meals {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (min-width: 1024px) {
+	.grid-meals {
+		padding: 30px 10%;
+	}
+}
+
+@media (min-width: 1280px) {
+	.grid-meals {
+		padding: 30px 13%;
+	}
+}
+
+@media (min-width: 1920px) {
+	.grid-meals {
+		padding: 30px 16%;
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
