@@ -6,7 +6,7 @@ function Error404() {
 		<div className="error-page">
 			<h1 className="error-status">404</h1>
 			<h2 className="error-title">Page not found</h2>
-			<p className="error-text">
+			<p>
 				The page you are looking for might have been removed had its name
 				changed or is temporarily unavailable.
 			</p>

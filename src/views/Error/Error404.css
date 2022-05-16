@@ -18,6 +18,13 @@
 	margin-bottom: 20px;
 }
 
+.error-text {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: var(--bg-dark);
+	text-align: center;
+}
+
 @media (min-width: 768px) {
 	.error-page {
 		padding: 40px 18%;
