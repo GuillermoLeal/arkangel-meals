@@ -1,9 +1,6 @@
 {
-  "name": "arkangel-meals",
+  "name": "curso-react",
   "version": "0.1.0",
-  "engines": {
-    "node": "14.19.1"
-  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -12,7 +9,6 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
-    "serve": "^13.0.2",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
