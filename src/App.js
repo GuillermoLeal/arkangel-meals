@@ -20,7 +20,7 @@ function App() {
 
 	const handleResetSearch = () => setSearch('');
 
-	const { data } = useFetch(`/search.php?f=${search}`, 'GET');
+	const { data } = useFetch(`/search.php?s=${search}`, 'GET');
 
 	return (
 		<BrowserRouter>
